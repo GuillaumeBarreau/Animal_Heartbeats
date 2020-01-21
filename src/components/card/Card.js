@@ -19,16 +19,18 @@ const Item = styled.li`
 	display: flex;
 	flex: 1 1 auto;
 	min-width: 300px;
+	min-height: 300px;
 	flex-direction: column;
-	align-items: center;
 `;
 
 const Link = styled.a`
 	display: flex;
-	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	text-decoration: none;
 	width: 100%;
+	height: 100%;
 	color: ${props => props.theme.text};
 	pointer-events: none;
 	cursor: default;
