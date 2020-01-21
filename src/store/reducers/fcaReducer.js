@@ -1,6 +1,7 @@
 import { INITDATA, FILTERBYNAME } from '../actions/actionTypes';
 import fcaData from '../../data/json/fca_en_EN.json';
 import { filterByValue } from '../../logic/filterByValue.logic';
+import { suffleData } from '../../logic/suffleData.logic';
 
 const initialState = {
 	data: [],
@@ -10,7 +11,7 @@ const fcaReducer = (state = initialState, action) => {
 	switch (action.type) {
 		case INITDATA:
 			return {
-				data: [...fcaData],
+				data: suffleData([...fcaData]),
 			};
 
 		case FILTERBYNAME:

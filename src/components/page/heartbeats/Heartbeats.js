@@ -5,6 +5,7 @@ import WrapperCard from '../../wrapperCard/WrapperCard';
 import SortBar from '../../sortBar/SortBar';
 import Title from '../../title/Title';
 import Switch from '../../switch/Switch';
+import Footer from '../../footer/Footer';
 
 const Main = styled.main`
 	text-align: center;
@@ -21,6 +22,7 @@ const Heartbeats = ({ theme }) => {
 			<Title>Heartbeats</Title>
 			<SortBar />
 			<WrapperCard />
+			<Footer />
 		</Main>
 	);
 };

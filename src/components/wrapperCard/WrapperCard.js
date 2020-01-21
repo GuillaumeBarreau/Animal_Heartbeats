@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 import Card from '../card/Card';
-import { INITDATA } from '../../store/actions/actionTypes';
+import { initAnimalsData } from '../../store/actions/initAnimalsData';
 
 const Wrapper = styled.ul`
 	list-style: none;
@@ -18,7 +18,7 @@ const WrapperCard = ({ hearthData }) => (
 		{hearthData.length ? (
 			hearthData.map((data, index) => <Card key={data.name} name={data.name} image={data.image || 0} fcm={data.fcm} />)
 		) : (
-			<h2>DATA NOT FOUND</h2>
+			<Card key="DATANOTFOUND" name="Sorry, no matches found :(" image={'' || 0} fcm="404" />
 		)}
 	</Wrapper>
 );
@@ -30,9 +30,7 @@ const mapStateToProps = state => {
 };
 
 const mapDispatchToProps = dispatch => {
-	return dispatch({
-		type: INITDATA,
-	});
+	return dispatch(initAnimalsData());
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(WrapperCard);
