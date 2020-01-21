@@ -16,9 +16,9 @@ const Item = styled.li`
 	border-radius: 4px;
 	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
 	margin: 0.5rem;
-	min-width: 320px;
 	display: flex;
-	flex: 0 0 calc(25% - 1rem);
+	flex: 1 1 auto;
+	min-width: 300px;
 	flex-direction: column;
 	align-items: center;
 `;
