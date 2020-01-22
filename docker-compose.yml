@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+
+  production:
+    container_name: HearthBeats-production
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3001:3000'
+    environment:
+      - NODE_ENV=production
+
+  build:
+    container_name: HearthBeats-build
+    build:
+      context: .
+      dockerfile: build.Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3002:80'
+    environment:
+      - NODE_ENV=staging
