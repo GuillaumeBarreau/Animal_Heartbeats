@@ -19,7 +19,7 @@ const Heartbeats = ({ theme }) => {
 	return (
 		<Main theme={theme} className="App">
 			<Switch />
-			<Title>Heartbeats</Title>
+			<Title>Animal Heartbeats</Title>
 			<SortBar />
 			<WrapperCard />
 			<Footer />

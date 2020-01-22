@@ -88,7 +88,7 @@ const Card = ({ theme, ...props }) => (
 			<ContentHearth>
 				<Hearth fcm={props.fcm}></Hearth>
 			</ContentHearth>
-			<Text>{props.fcm} BPM</Text>
+			<Text>≈ {props.fcm} BPM</Text>
 			<Legende>BPM : Beats per minute</Legende>
 		</Link>
 	</Item>
