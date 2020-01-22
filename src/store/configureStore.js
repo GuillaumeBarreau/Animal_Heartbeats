@@ -3,7 +3,6 @@ import reducers from './reducers/combineReducers';
 
 function logger({ getState }) {
 	return next => action => {
-		console.log('will dispatch', action);
 		return next(action);
 	};
 }

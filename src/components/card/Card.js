@@ -6,8 +6,7 @@ import { connect } from 'react-redux';
 const animate = keyframes`
   0%   {transform: scale(1);}
   50%  {transform: scale(2);}
-  100% {transform: scale(1);
-  }
+  100% {transform: scale(1);}
 `;
 
 // Create the components
@@ -80,15 +79,22 @@ const Avatar = styled.img`
 	background: #cbc5c5;
 `;
 
+const convertToIntFcm = ( fcm ) => {
+	
+	const calcAverage = fcm.includes("-") ? fcm.split("-").reduce((cur, prev) => (parseInt(cur) + parseInt(prev)) / 2) : parseInt(fcm)
+	
+	return calcAverage;
+}
+
 const Card = ({ theme, ...props }) => (
 	<Item id={props.name} theme={theme}>
 		<Link theme={theme} href="">
 			<Title>{props.name}</Title>
 			{props.image ? <Avatar /> : null}
 			<ContentHearth>
-				<Hearth fcm={props.fcm}></Hearth>
+				<Hearth fcm={convertToIntFcm(props.fcm)}></Hearth>
 			</ContentHearth>
-			<Text>≈ {props.fcm} BPM</Text>
+			<Text>≈ {convertToIntFcm(props.fcm)} BPM</Text>
 			<Legende>BPM : Beats per minute</Legende>
 		</Link>
 	</Item>

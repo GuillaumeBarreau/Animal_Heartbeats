@@ -1,177 +1,207 @@
 [
     {
-		"id": "00000",
 		"name": "Human",
-		"fcm": 70
-    },
-    {
-		"id": "00001",
-		"name": "Medium Cat",
-		"fcm": 150
-    },
-    {
-		"id": "00002",
-		"name": "Small Cat",
-		"fcm": 100
-    },
-    {
-		"id": "00003",
-		"name": "Medium Dog",
-		"fcm": 90
+		"fcm": "70",
+		"source": ""
 	},
 	{
-		"id": "00003",
-		"name": "BANANA",
-		"fcm": 90
+		"name": "Alligator",
+		"fcm": "32",
+		"source": ""
     },
     {
-		"id": "00004",
+		"name": "Medium Cat",
+		"fcm": "150",
+		"source": ""
+    },
+    {
+		"name": "Small Cat",
+		"fcm": "100",
+		"source": ""
+    },
+    {
+		"name": "Medium Dog",
+		"fcm": "90",
+		"source": ""
+	},
+    {
 		"name": "Large Dog",
-		"fcm": 75
+		"fcm": "75",
+		"source": ""
     },
     {
-		"id": "00005",
 		"name": "Hamster",
-		"fcm": 450
+		"fcm": "450",
+		"source": ""
     },
     {
-		"id": "00006",
 		"name": "Chicken",
-		"fcm": 275
+		"fcm": "275",
+		"source": ""
     },
     {
-		"id": "00007",
 		"name": "Monkey",
-		"fcm": 190
+		"fcm": "190",
+		"source": ""
     },
     {
-		"id": "00008",
 		"name": "Horse",
-		"fcm": 44
+		"fcm": "44",
+		"source": ""
     },
     {
-		"id": "00009",
 		"name": "Cow",
-		"fcm": 65
+		"fcm": "65",
+		"source": ""
     },
     {
-		"id": "00010",
-		"name": "Pig",
-		"fcm": 70
-    },
-    {
-		"id": "00011",
 		"name": "Rabbit",
-		"fcm": 205
+		"fcm": "205",
+		"source": ""
     },
     {
-		"id": "00012",
 		"name": "Elephant",
-		"fcm": 30
+		"fcm": "30",
+		"source": ""
     },
     {
-		"id": "00013",
 		"name": "Girafe",
-		"fcm": 65
+		"fcm": "65",
+		"source": ""
     },
     {
-		"id": "00014",
 		"name": "Large Whale",
-		"fcm": 20
+		"fcm": "20",
+		"source": ""
+	},
+	{
+		"name": "Blue Whale",
+		"fcm": "8-10",
+		"source": ""
     },
     {
-		"id": "00015",
 		"name": "Pygmy Shrew",
-		"fcm": 1200
+		"fcm": "1200",
+		"source": ""
     },
     {
-		"id": "00016",
 		"name": "Hummingbirds",
-		"fcm": 1260
+		"fcm": "1260",
+		"source": ""
     },
     {
-		"id": "00017",
 		"name": "Dolphin",
-		"fcm": 40
+		"fcm": "40",
+		"source": ""
     },
     {
-		"id": "00018",
 		"name": "Bear Grizzly",
-		"fcm": 40
+		"fcm": "40",
+		"source": ""
+	},
+	{
+		"name": "Goat",
+		"fcm": "70-80",
+		"source": ""
+	},
+	{
+		"name": "Pig",
+		"fcm": "70-120",
+		"source": ""
+	},
+	{
+		"name": "Sheep",
+		"fcm": "70-80",
+		"source": ""
+	},
+	{
+		"name": "Ox",
+		"fcm": "36-60",
+		"source": ""
+    },
+	{
+		"name": "Bear",
+		"fcm": "55",
+		"source": ""
     },
     {
-		"id": "00019",
 		"name": "Guinea pig",
-		"fcm": 300
+		"fcm": "300",
+		"source": ""
     },
     {
-		"id": "00020",
 		"name": "Rat",
-		"fcm": 420
+		"fcm": "420",
+		"source": ""
     },
     {
-		"id": "00021",
 		"name": "Mousse",
-		"fcm": 670
+		"fcm": "670",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Etruscan shrew",
-		"fcm": 835
+		"fcm": "835",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Ostrich",
-		"fcm": 90
+		"fcm": "90",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Emu",
-		"fcm": 170
+		"fcm": "170",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Pigeon",
-		"fcm": 185
+		"fcm": "185",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Wild duck",
-		"fcm": 190
+		"fcm": "190",
+		"source": ""
+	},
+	{
+		"name": "Tortoise",
+		"fcm": "10",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Turkey",
-		"fcm": 193
+		"fcm": "193",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Domestic duck",
-		"fcm": 240
+		"fcm": "240",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Buzzard",
-		"fcm": 300
+		"fcm": "300",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Hen",
-		"fcm": 312
+		"fcm": "312",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Canary",
-		"fcm": 1000
+		"fcm": "1020",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Crow",
-		"fcm": 378
+		"fcm": "378",
+		"source": ""
     },
     {
-		"id": "00022",
 		"name": "Frog",
-		"fcm": 24
+		"fcm": "24",
+		"source": ""
     }
 ]
