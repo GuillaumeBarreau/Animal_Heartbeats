@@ -1,1 +1,11 @@
+.git
 node_modules
+DockerFiles
+coverage
+.vscode
+README.md
+docker-compose.yml
+.tmp
+build
+dist
+tests
