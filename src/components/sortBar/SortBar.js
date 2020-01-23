@@ -5,12 +5,13 @@ import { FILTERBYNAME } from '../../store/actions/actionTypes';
 
 const ContentInput = styled.div`
 	display: flex;
+	margin-top: 2.5rem;
 `;
 
 const Input = styled.input`
 	padding: 1rem;
 	flex: 100%;
-	margin: 0.5rem;
+	margin: 0 0.5rem 0.5rem;
 	background: ${props => props.theme.secondary};
 	border-radius: 4px;
 	border: 1px solid ${props => props.theme.secondary};

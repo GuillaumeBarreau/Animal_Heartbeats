@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 
 const FooterContent = styled.footer`
 	padding: 2rem;
-	margin-top: 10rem;
+	margin-top: 2.5rem;
 	background: ${props => props.theme.secondary};
 	color: ${props => props.theme.text};
 `;

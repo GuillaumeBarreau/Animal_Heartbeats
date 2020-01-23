@@ -16,10 +16,10 @@ services:
       - NODE_ENV=dev
 
   build:
-    container_name: HearthBeats-build
+    container_name: HearthBeats-production
     build:
       context: .
-      dockerfile: ./dockerFiles/build/DockerFile
+      dockerfile: ./dockerFiles/build/Dockerfile
     volumes:
       - '.:/app'
       - '/app/node_modules'
