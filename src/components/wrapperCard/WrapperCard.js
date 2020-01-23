@@ -7,7 +7,7 @@ import { initAnimalsData } from '../../store/actions/initAnimalsData';
 const Wrapper = styled.ul`
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin-top: 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

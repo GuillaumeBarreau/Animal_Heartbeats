@@ -1,6 +1,5 @@
 .git
 node_modules
-DockerFiles
 coverage
 .vscode
 README.md
