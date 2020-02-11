@@ -1,5 +1,6 @@
 export const suffleData = list => {
-	const newData = list.sort(() => Math.random() - 0.5);
+	const listCopy = [...list];
+	const newData = listCopy.sort(() => Math.random() - 0.5);
 
-	return newData;
+	return JSON.stringify(newData) === JSON.stringify(list) ? suffleData(list) : newData;
 };

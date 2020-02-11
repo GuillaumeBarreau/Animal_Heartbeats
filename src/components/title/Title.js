@@ -1,14 +1,15 @@
 import React from 'react';
-import styled from 'styled-components';
 import { connect } from 'react-redux';
+// Styled components
+import { TitleApp } from './Title.styled';
 
-const TitleApp = styled.h1`
-	color: ${props => props.theme.text};
-    margin: 0;
-    padding: 2rem 0 0;
-`;
+const Title = ({ children, theme }) => {
+	const props = {
+		theme,
+	};
 
-const Title = ({ children, theme }) => <TitleApp theme={theme}>{children}</TitleApp>;
+	return <TitleApp {...props}>{children}</TitleApp>;
+};
 
 const mapStateToProps = state => {
 	return {

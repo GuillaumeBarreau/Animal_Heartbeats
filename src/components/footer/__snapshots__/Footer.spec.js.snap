@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Snapshot testing 1`] = `"<footer class=\\"sc-AykKC llPHYB\\"><p>Made with love ♥ ♥ ♥ - Repository <a target=\\"_blank\\" href=\\"https://github.com/GuillaumeBarreau/Animal_Heartbeats\\" class=\\"sc-AykKD fukFcY\\">GitHub</a></p></footer>"`;

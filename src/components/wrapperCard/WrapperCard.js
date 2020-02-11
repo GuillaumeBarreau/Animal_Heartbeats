@@ -1,24 +1,24 @@
 import React from 'react';
-import styled from 'styled-components';
 import { connect } from 'react-redux';
 import Card from '../card/Card';
 import { initAnimalsData } from '../../store/actions/initAnimalsData';
-
-const Wrapper = styled.ul`
-	list-style: none;
-	padding: 0;
-	margin-top: 0;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-`;
+import { Wrapper } from './WrapperCard.styled';
 
 const WrapperCard = ({ hearthData }) => (
 	<Wrapper>
 		{hearthData.length ? (
-			hearthData.map((data, index) => <Card key={data.name} name={data.name} image={data.image || 0} fcm={data.fcm} />)
+			hearthData.map((data, index) => {
+				const props = {
+					key: data.name,
+					name: data.name,
+					image: data.image || 0,
+					fcm: data.fcm,
+				};
+
+				return <Card {...props} />;
+			})
 		) : (
-			<Card key="DATANOTFOUND" name="Sorry, no matches found :(" image={'' || 0} fcm="404" />
+			<Card name="Sorry, no matches found :(" image={'' || 0} fcm="404" />
 		)}
 	</Wrapper>
 );
