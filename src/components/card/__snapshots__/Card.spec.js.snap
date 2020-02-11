@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component Snapshot testing 1`] = `"<li id=\\"name props\\" class=\\"sc-AykKC gTkJkp\\"><a href=\\"\\" class=\\"sc-AykKD heYvfS\\"><h2 class=\\"sc-AykKE dtaabF\\">name props</h2><div class=\\"sc-AykKF byrLDp\\"><div class=\\"sc-AykKG cpvmWV\\"></div></div><p class=\\"sc-AykKI fSiutg\\">≈ 100 BPM</p><p class=\\"sc-AykKH bdhmnO\\">BPM : Beats per minute</p></a></li>"`;

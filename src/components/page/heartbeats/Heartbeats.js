@@ -1,23 +1,20 @@
 import React from 'react';
-import styled from 'styled-components';
 import { connect } from 'react-redux';
 import WrapperCard from '../../wrapperCard/WrapperCard';
 import SortBar from '../../sortBar/SortBar';
 import Title from '../../title/Title';
 import Switch from '../../switch/Switch';
 import Footer from '../../footer/Footer';
-
-const Main = styled.main`
-	text-align: center;
-	max-width: 100vw;
-	min-height: 100vh;
-	background: ${props => props.theme.primary};
-`;
+// import Styled components
+import { Main } from './Heartbeats.styled';
 
 const Heartbeats = ({ theme }) => {
+	const props = {
+		theme,
+	};
 
 	return (
-		<Main theme={theme} className="App">
+		<Main {...props} className="App">
 			<Switch />
 			<Title>Animal Heartbeats</Title>
 			<SortBar />
@@ -28,7 +25,6 @@ const Heartbeats = ({ theme }) => {
 };
 
 const mapStateToProps = state => {
-	
 	return {
 		theme: state.theme,
 	};

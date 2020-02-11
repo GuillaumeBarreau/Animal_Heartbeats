@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SortBar component Snapshot testing 1`] = `"<div class=\\"sc-AykKC kkUZaI\\"><input type=\\"text\\" placeholder=\\"Searching by name\\" value=\\"\\" class=\\"sc-AykKD djKtFZ\\"/></div>"`;

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch component Snapshot testing 1`] = `"<div class=\\"sc-AykKC jzLlng\\"><input type=\\"checkbox\\" class=\\"sc-AykKD jJxDYL react-switch-checkbox\\" id=\\"react-switch-new\\"/><label class=\\"sc-AykKE fCYzRp react-switch-label\\" for=\\"react-switch-new\\"><span class=\\"react-switch-button\\"></span></label></div>"`;
