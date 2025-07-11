@@ -1,0 +1,68 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - react-scripts > jest-circus > jest-snapshot > @babel/types > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > jest-circus > jest-snapshot > @babel/types > lodash
+    - react-scripts > @svgr/webpack > @babel/preset-env > @babel/preset-modules > @babel/types > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > @svgr/webpack > @babel/preset-env >
+          @babel/preset-modules > @babel/types > lodash
+    - react-scripts > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-eslint > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - react-scripts > jest-circus > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest-circus > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > @jest/transform > @babel/core >
+          @babel/traverse > lodash
+    - react-scripts > babel-jest > babel-preset-jest > babel-plugin-jest-hoist > @babel/types > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > babel-preset-jest >
+          babel-plugin-jest-hoist > @babel/types > lodash
+    - react-scripts > jest > @jest/core > jest-config > @babel/core > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: react-scripts > jest > @jest/core > jest-config > @babel/core > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > @jest/transform > @babel/core >
+          @babel/helpers > @babel/traverse > lodash
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > @babel/traverse > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > @jest/core > jest-config > jest-jasmine2 >
+          @babel/traverse > lodash
+    - react-scripts > babel-jest > @jest/transform > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > babel-jest > @jest/transform > @babel/core >
+          @babel/helpers > @babel/traverse > @babel/generator > lodash
+    - react-scripts > jest > @jest/core > jest-config > jest-jasmine2 > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2025-07-11T04:22:50.877Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          react-scripts > jest > @jest/core > jest-config > jest-jasmine2 >
+          @babel/traverse > @babel/helper-function-name > @babel/types > lodash
